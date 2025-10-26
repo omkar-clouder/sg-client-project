@@ -85,6 +85,8 @@ new-project/
 ## 📚 Documentation
 
 - **COMPLETE_SETUP.md** - Complete setup guide with troubleshooting
+- **DEPLOYMENT_GUIDE.md** - Deploy to EC2 or cloud servers (READ THIS FOR PRODUCTION!)
+- **EC2_QUICK_DEPLOY.md** - Quick EC2 deployment guide
 - **QUICK_START.md** - Quick reference guide
 - **SETUP_AND_REQUIREMENTS.md** - Detailed requirements
 - **backend + mongodb/README.md** - Backend API documentation

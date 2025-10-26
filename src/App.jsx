@@ -5,7 +5,8 @@ import Papa from 'papaparse'
 import * as XLSX from 'xlsx'
 import './App.css'
 
-const API_URL = 'http://localhost:3000/api'
+// Use environment variable or default to localhost for development
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
 
 function App() {
   const [data, setData] = useState([])
