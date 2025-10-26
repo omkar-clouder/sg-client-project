@@ -1,0 +1,47 @@
+/* Additional custom styles */
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Glow effect on hover */
+button:hover, input:hover {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Loading animation for button clicks */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Custom focus styles */
+input:focus, button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5);
+}
+
+/* Table animations */
+table tr {
+  animation: fadeIn 0.3s ease-out;
+}
+
+table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
